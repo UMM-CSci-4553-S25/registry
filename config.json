@@ -1,0 +1,4 @@
+{
+  "dl": "http://127.0.0.1:40861/api/v1/crates/{crate}/{version}/download",
+  "api": "http://127.0.0.1:40861"
+}
