@@ -1,0 +1,7 @@
+Any crates published to this registry (meaning all files ending with `.crate` and all files inside directories inside this repository)
+retain the original licensing and copyright under which they were published to this registry. 
+For more information on the license of each individual crate, view the corresponding metadata in the crate's metadata file, 
+accessible in the directory structure created by the first few characters of the crates name.
+
+All other non-crate files in this repository are licensed under the `MIT` license, which is included,
+in full, in the `LICENSE` file at the root of this repositiory. 
