@@ -18,7 +18,7 @@ To use this registry you need to configure cargo to use an external registry. Th
 
 > [!TIP]
 > All templates provided for exercises in this course will have the registry already configured under the name `ec-course` using the local config file.
-> Feel free to skip the remainder of this section if you don't ever plan to use the provided crates any other cargo project you've created on your own.
+> Feel free to skip the remainder of this section if you don't ever plan to use the provided crates for any other cargo project you've created on your own.
 
 To add a registry, add a section according to the following template to any of those configurations:
 
@@ -62,7 +62,7 @@ to install the dependencies specific to this course
 > cargo add <package-name>
 > ```
 >
-> To discover new crates, you can browse [crates.io's website](https://crates.io). As an alternative, the [lib.rs](https://lib.rs) website also provies a more opinionated interface for the same crates and has a ranking and collections of commonly used crates in their respective categories, so you might want to take a look at that as well.
+> To discover new crates, you can browse [crates.io's website](https://crates.io). As an alternative, the [lib.rs](https://lib.rs) website also provides a more opinionated interface for the same crates and has a ranking and collections of commonly used crates in their respective categories, so you might want to take a look at that as well.
 >
 > This will work as long as you have not re-configured your default registry. If you know how to do that and you have, this tutorial probably isn't meant for you :)
 
@@ -81,7 +81,7 @@ ec-core = { version = "0.1.0-course.1", registry = "ec-course" }
 > [!TIP]
 > If you wish to instead manually add dependencies, you can just edit the `Cargo.toml` and add the line shown above under the `[dependencies]` section.
 >
-> For the remainder of this course we'll use the `cargo add` command and that's also the way we recommend to add new dependencies.
+> For the remainder of this course we'll use the `cargo add` command - that's also the way we recommend to add new dependencies.
 
 
 > [!TIP]
@@ -97,7 +97,7 @@ ec-core = { version = "0.1.0-course.1", registry = "ec-course" }
 > This section is meant for contributing to this repository and not relevant for normal usage. If you are a student, this is probably not relevant for you :)
 
 > [!WARNING]
-> These steps are meant to be followed on unix-like systems having the bash shell installed, and in the PATH variable.
+> These steps are meant to be followed on unix-like systems having the bash shell installed, and present in the PATH variable.
 > They won't work without modifications on other systems.
 
 > [!NOTE]
