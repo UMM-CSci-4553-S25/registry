@@ -1,6 +1,6 @@
 # Why do we need this registry?
 
-Some of the crates needed for this course are not (yet) provided on crates.io, but instead only available through this registry or directly as a git dependency.
+Some of the crates needed for this course are not (yet) provided on [crates.io](https://crates.io), but instead only available through this registry or directly as a git dependency.
 
 This includes both the evolutionary computation framework we'll be using, as well as the course support crate.
 
