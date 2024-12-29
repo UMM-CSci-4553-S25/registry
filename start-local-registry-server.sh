@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd  "$(dirname "${BASH_SOURCE[0]}")"
+current_path=$(realpath "$(dirname "$BASH_SOURCE[0]")")
+
+cd  "$current_path"
 
 if [[ $(git status --porcelain) != "" ]]; then
   echo "Please make sure your git state is clean before proceeding"
@@ -22,7 +24,7 @@ fi
 
 pre_start_commit=$(git log --format="%H" -n 1)
 
-cargo-http-registry "$(dirname "${BASH_SOURCE[0]}")" -a 127.0.0.1:35503 &
+cargo-http-registry "$current_path" -a 127.0.0.1:35503 &
 registry_pid=$!
 
 sleep 1
