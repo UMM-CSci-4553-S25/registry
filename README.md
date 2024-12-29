@@ -33,10 +33,9 @@ more specifically for this registry, use
 [registries.ec-course]
 index = "https://github.com/UMM-CSci-4553-S25/registry.git"
 ```
+to set up a local registry called `ec-course`.
 
 Make sure that, if present, you put the section directly after any existing `[registries]` sections.
-
-to set up a local registry called `ec-course`.
 
 > [!NOTE]
 > You are of course free to pick another name than `ec-course`. If you do, be aware that:
