@@ -124,7 +124,7 @@ You might be asked to login to the registry. If that's the case you can use
 cargo login --registry local-server
 ```
 
-with any token of your chossing (the local server doesn't validate the token).
+with any token of your choosing (the local server doesn't validate the token).
 
 Follow any other instructions from the script.
 
