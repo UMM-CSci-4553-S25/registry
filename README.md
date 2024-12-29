@@ -2,7 +2,7 @@
 
 Some of the crates needed for this course are not (yet) provided on [crates.io](https://crates.io), but instead only available through this registry or directly as a git dependency.
 
-This includes both the evolutionary computation framework we'll be using, as well as the course support crate.
+This includes both the [evolutionary computation framework](https://github.com/unhindered-ec/unhindered-ec) we'll be using, as well as the [course support crate](https://github.com/UMM-CSci-4553-S25/course-helpers).
 
 > [!TIP]
 > To simplify the installation process, we strongly recommend you use this registry to install the packages over direct git dependencies.
