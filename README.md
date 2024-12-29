@@ -106,7 +106,7 @@ This repository contains a [`start-local-registry-server.sh` script](start-local
 
 To do that, run
 ```bash
-./start-local-registry.sh
+./start-local-registry-server.sh
 ```
 
 A message will appear letting you know when the registry is started.
