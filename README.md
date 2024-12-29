@@ -100,7 +100,7 @@ ec-core = { version = "0.1.0-course.1", registry = "ec-course" }
 > They won't work without modifications on other systems.
 
 > [!NOTE]
-> A working rust toolchain installation is required. Other tools required will be installed using `cargo install` on the first launch of the script. Currently those are `tomli` and `cargo-http-registry`
+> A working rust toolchain installation as well as a recent git version is required. Other tools required will be installed using `cargo install` on the first launch of the script. Currently those are `tomli` and `cargo-http-registry`
 
 This repository contains a [`start-local-registry-server.sh` script](start-local-registry-server.sh). This script can be used to start a local api server for this registry using [cargo-http-registry](https://github.com/d-e-s-o/cargo-http-registry), and register a registry called local-server in the user's global config. 
 
