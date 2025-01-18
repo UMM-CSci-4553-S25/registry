@@ -23,6 +23,7 @@ To use this registry you need to configure cargo to use an external registry. Th
 To add a registry, add a section according to the following template to any of those configurations:
 
 ```toml
+# .cargo/config.toml (Note: NOT Cargo.toml)
 [registries.<registry-name>]
 index = "http://<git-repo>"
 ```
@@ -30,6 +31,7 @@ index = "http://<git-repo>"
 more specifically for this registry, use
 
 ```toml
+# .cargo/config.toml (Note: NOT Cargo.toml)
 [registries.ec-course]
 index = "https://github.com/UMM-CSci-4553-S25/registry.git"
 ```
